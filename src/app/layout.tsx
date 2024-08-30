@@ -11,11 +11,11 @@ export default function RootLayout({
     return (
         <html lang="en">
             <body>
-                <header>
+                <header style={{ background: 'lightblue', padding: '1rem' }}>
                     <p>header</p>
                 </header>
                 {children}
-                <footer>
+                <footer style={{ background: 'lightblue', padding: '1rem' }}>
                     <p>footer</p>
                 </footer>
             </body>
